@@ -1,0 +1,28 @@
+.web {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-areas:
+    "top top"
+    "left-side right-side";
+}
+.top {
+  grid-area: top;
+}
+.left-side {
+  grid-area: left-side;
+}
+.right-side {
+  grid-area: right-side;
+}
+@media only screen and (max-width: 500px) {
+    .web {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 1fr 1fr;
+      grid-template-areas:
+        "top"
+        "right-side"
+        "left-side";
+    }
