@@ -219,7 +219,7 @@
                     />
                   </svg>
                 </td>
-                <td><li>571-480-0425</li></td>
+                <td><li>571-337-3905</li></td>
               </tr>
               <tr>
                 <td>
@@ -238,7 +238,7 @@
                     />
                   </svg>
                 </td>
-                <td><li>tomike@asia.com</li></td>
+                <td><li>munkh2dev@gmail.com</li></td>
               </tr>
             </table>
           </ul>
@@ -331,128 +331,136 @@
       </div>
 
       <div class="right-side">
-        <div class="aboutMe">
-          <h1>ABOUT ME . . .</h1>
-          <p id="aboutMe">
-            I am Munkh Erdene, a web designer/developer focused on crafting
-            great web experiences. Designing and Coding have been my passion
-            since the days I started working with computers but I found myself
-            into web design/development since 2018. I enjoy creating beautifully
-            designed, intuitive and functional websites. For over past 2 years,
-            I have worked for some of the best digital agencies and wonderful
-            clients to create some award winning works. And, I can make this
-            happen for your business as well.
-          </p><hr>
-        </div>
-       
-        <div class="mylinks">
-            <script>
-                filterSelection("all");
-                function filterSelection(co) {
-                    var x, i;
-                    x = document.getElementsByClassName("filterDiv1");
-                    if (co === "all") co = "";
-                    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-                    for (i = 0; i < x.length; i++) {
-                        w3RemoveClass(x[i], "show1");
-                        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show1");
-                    }
-                }
+          <div class="aboutMe">
+              <h1>ABOUT ME . . .</h1>
+              <p id="aboutMe">
+                  I am Munkh Erdene, a web designer/developer focused on crafting
+                  great web experiences. Designing and Coding have been my passion
+                  since the days I started working with computers but I found myself
+                  into web design/development since 2018. I enjoy creating beautifully
+                  designed, intuitive and functional websites. For over past 2 years,
+                  I have worked for some of the best digital agencies and wonderful
+                  clients to create some award winning works. And, I can make this
+                  happen for your business as well.
+              </p><hr>
+          </div>
 
-                // Show filtered elements
-                function w3AddClass(element, name) {
-                    var i, arr1, arr2;
-                    arr1 = element.className.split(" ");
-                    arr2 = name.split(" ");
-                    for (i = 0; i < arr2.length; i++) {
-                        if (arr1.indexOf(arr2[i]) == -1) {
-                            element.className += " " + arr2[i];
-                        }
-                    }
-                }
+          <div class="mylinks">
+              <script>
+                  filterSelection("all");
+                  function filterSelection(co) {
+                      var x, i;
+                      x = document.getElementsByClassName("filterDiv1");
+                      if (co === "all") co = "";
+                      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                      for (i = 0; i < x.length; i++) {
+                          w3RemoveClass(x[i], "show1");
+                          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show1");
+                      }
+                  }
 
-                // Hide elements that are not selected
-                function w3RemoveClass(element, name) {
-                    var i, arr1, arr2;
-                    arr1 = element.className.split(" ");
-                    arr2 = name.split(" ");
-                    for (i = 0; i < arr2.length; i++) {
-                        while (arr1.indexOf(arr2[i]) > -1) {
-                            arr1.splice(arr1.indexOf(arr2[i]), 1);
-                        }
-                    }
-                    element.className = arr1.join(" ");
-                }
+                  // Show filtered elements
+                  function w3AddClass(element, name) {
+                      var i, arr1, arr2;
+                      arr1 = element.className.split(" ");
+                      arr2 = name.split(" ");
+                      for (i = 0; i < arr2.length; i++) {
+                          if (arr1.indexOf(arr2[i]) == -1) {
+                              element.className += " " + arr2[i];
+                          }
+                      }
+                  }
 
-                // Add active class to the current control button (highlight it)
-                var btnContainer = document.getElementById("myBtnContainer");
-                var btns = btnContainer.getElementsByClassName("btn1");
-                for (var i = 0; i < btns.length; i++) {
-                    btns[i].addEventListener("click", function () {
-                        var current = document.getElementsByClassName("active1");
-                        current[0].className = current[0].className.replace(" active1", "");
-                        this.className += " active1";
-                    });
-                }
-            </script>
-            <h3> . . .  Education</h3>
-            <ul>
-                <li># Master of Divinity - WTS University Arlington, VA</li>
-                <li># Bachelor of Computer Science - University of Science and Technology Mongolia</li>
-                <li># Bachelor of Business Administration - MBI University UB, Mongolia</li>
-                <li># Software Developer Engineer in Test - Java Selenium automation CyberTeh, Mclean, VA</li>
-            </ul>
-           
-            <ul>
-                <li>
-                   
-                    Visit my repositories:
-                    <a class="glow" href="https://github.com/dorjoo911">https://github.com/dorjoo911</a>
-                    <br />
-                    Visit my linkedin:
-                    <a class="glow" href="https://www.linkedin.com/in/munkh-erdene-510408212/">linkedin.com/in/munkh-erdene-510408212</a>
-                </li>
-            </ul><hr>
-            <h3>  . . .  My Projects</h3>
-            <ul>
-                <li>
-                    Project 1:
-                    <a class="glow" href=" https://dorjoo911.github.io/diceGame/">DICE GAME </a><br />
-                    Fun game: HTML, CSS, and JavaScript back-end.  Play with your friend. Check your luck here!
-                </li>
-                <br />
-                <li>
-                    Project 2:
-                    <a class="glow"
-                       href=" https://dorjoo911.github.io/familyBudgetCalculator/">
-                        FAMILY BUDGET CALCULATOR
-                    </a><br />
-                    HTML, CSS, and JavaScript back-end. Calculate your family budget easily ... !
-                </li>
-                <br />
-                <li>
-                    Project 3:
-                    <a class="glow" href=" https://irlee.info/">
-                        WWW.IRLEE.INFO
-                    </a><br />
-                    DMV area Mongolian Community - since 2017
-                </li>
-                <br />
-                <li>
-                    Project 4:
-                    <a class="glow" href="https://github.com/dorjoo911/SeleniumBasicActions">SELENIUM BASIC ACTIONS</a><br />
-                    Selenium, WebDriver-manager, MySQL - Java
-                </li>
-                <br />
-                <li>
-                    Project 5:
-                    <a class="glow" href="https://github.com/dorjoo911/restAPI">API TESTING</a><br />
-                    Test Automation: Maven project, Rest Assured, xml, json-path, TestNG, and Hamcrest
-                </li><br />
-                
-            </ul>
+                  // Hide elements that are not selected
+                  function w3RemoveClass(element, name) {
+                      var i, arr1, arr2;
+                      arr1 = element.className.split(" ");
+                      arr2 = name.split(" ");
+                      for (i = 0; i < arr2.length; i++) {
+                          while (arr1.indexOf(arr2[i]) > -1) {
+                              arr1.splice(arr1.indexOf(arr2[i]), 1);
+                          }
+                      }
+                      element.className = arr1.join(" ");
+                  }
 
-        </div>
+                  // Add active class to the current control button (highlight it)
+                  var btnContainer = document.getElementById("myBtnContainer");
+                  var btns = btnContainer.getElementsByClassName("btn1");
+                  for (var i = 0; i < btns.length; i++) {
+                      btns[i].addEventListener("click", function () {
+                          var current = document.getElementsByClassName("active1");
+                          current[0].className = current[0].className.replace(" active1", "");
+                          this.className += " active1";
+                      });
+                  }
+              </script>
+              <h3> . . .  Education</h3>
+              <ul>
+                  <li># Master of Divinity - WTS University Arlington, VA</li>
+                  <li># Bachelor of Computer Science - University of Science and Technology Mongolia</li>
+                  <li># Bachelor of Business Administration - MBI University UB, Mongolia</li>
+                  <li># Software Developer Engineer in Test - Java Selenium automation CyberTeh, Mclean, VA</li>
+              </ul>
+
+              <ul>
+                  <li>
+
+                      Visit my repositories:
+                      <a class="glow" href="https://github.com/dorjoo911">https://github.com/dorjoo911</a>
+                      <br />
+                      Visit my linkedin:
+                      <a class="glow" href="https://www.linkedin.com/in/munkh-erdene-510408212/">linkedin.com/in/munkh-erdene-510408212</a>
+                  </li>
+              </ul><hr>
+              <h3>  . . .  My Projects</h3>
+              <ul>
+                  <li>
+                      Project 1:
+                      <a class="glow" href=" https://dorjoo911.github.io/diceGame/">DICE GAME </a><br />
+                      Fun game: HTML, CSS, and JavaScript back-end.  Play with your friend. Check your luck here!
+                  </li>
+                  <br />
+                  <li>
+                      Project 2:
+                      <a class="glow"
+                         href=" https://dorjoo911.github.io/familyBudgetCalculator/">
+                          FAMILY BUDGET CALCULATOR
+                      </a><br />
+                      HTML, CSS, and JavaScript back-end. Calculate your family budget easily ... !
+                  </li>
+                  <br />
+                  <li>
+                      Project 3:
+                      <a class="glow" href=" https://irlee.info/">
+                          WWW.IRLEE.INFO
+                      </a><br />
+                      DMV area Mongolian Community - since 2017
+                  </li>
+                  <br />
+                  <li>
+                      Project 4:
+                      <a class="glow" href="https://github.com/dorjoo911/SeleniumBasicActions">SELENIUM BASIC ACTIONS</a><br />
+                      Selenium, WebDriver-manager, MySQL - Java
+                  </li>
+                  <br />
+                  <li>
+                      Project 5:
+                      <a class="glow" href="https://github.com/dorjoo911/SeleniumCoreJavaTesting">SELENIUM CORE-JAVA TESTING</a><br />
+                      Test Automation: Maven project, Rest Assured, xml, json-path, TestNG, and Hamcrest
+                  </li>
+                  <br />
+              </ul>
+
+          </div>
+          <!-- Video content -->
+          <center>
+              
+                  <iframe width="420" height="315"
+                          src="https://www.youtube.com/embed/4CrEnwZJ6vA" allowfullscreen>
+                  </iframe>
+              
+          </center>
       </div>
     </div>
   </body>
